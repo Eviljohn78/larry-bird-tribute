@@ -120,11 +120,30 @@ blockquote {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  gap: 20px;
   text-align: center;
   padding: 40px;
   border-bottom: medium solid white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+  color: #007a33;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px;
+
 }
 
 @media (min-width: 800px) {
@@ -146,8 +165,9 @@ footer {
   footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 40px 80px 40px 80px;
   }
 
 }
