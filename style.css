@@ -16,20 +16,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  
+  text-align: center;  
   border-top: medium solid white;
   border-bottom: medium solid white;
   font-size: 130%;
-}
-
-.logo-1 {
-
+  padding: 20px;
 }
 
 h1 {
-  font-size: 300%;
-  padding: 0px 0px 20px 0px;
+  font-size: 250%;
+  padding-bottom: 20px;
   line-height: 100%;
 }
 
@@ -39,7 +35,7 @@ h1 {
 
 header p {
   font-size: 120%;
-  padding: 20px 0px 40px 0px;
+  
 }
 
 .section-1 {
@@ -60,7 +56,8 @@ header p {
 }
 
 .section-1 p {
-  font-size: 130%;
+  text-align: center;
+  font-size: 120%;
   padding-top: 20px;
   font-weight: 500;
 }
@@ -70,20 +67,20 @@ header p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  font-size: 120%;
+  padding: 20px;
+  font-size: 100%;
   border-top: medium solid white;
   border-bottom: medium solid white;
 }
 
 .section-2 h2 {
-  font-size: 180%;
-  line-height: 100%;
+  font-size: 150%;
+  line-height: 110%;
   text-align: center;
 }
 
 .section-2-list {
-  padding: 40px;
+  padding: 20px;
   width: auto;
 }
 
@@ -95,10 +92,6 @@ header p {
   list-style-position: inside;
 }
 
-.inline-list li {
-  padding: 0px;
-}
-
 blockquote {
   display: flex;
   flex-direction: column;
@@ -106,7 +99,7 @@ blockquote {
   width: auto;
   border: thin solid white;
   border-radius: 20px;
-  padding: 40px;
+  padding: 20px;
   background-image: url(images/floor.jpg);
   color: black;
   font-weight: 500;
@@ -124,7 +117,7 @@ footer {
   align-items: center;
   gap: 20px;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
   border-bottom: medium solid white;
 }
 
@@ -152,15 +145,55 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 40px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 
   h1 {
-    padding: 40px 0px 20px 0px;
+    font-size: 300%;
   }
 
+  .title p {
+    font-size: 150%;
+  }
+  
   .logo-2 {
     display: block;
   }
+
+  .section-1 {
+    padding: 40px;
+    font-size: 125%;
+  }
+
+  .section-2 {
+    padding: 40px;
+  }
+
+  .section-2 h2 {
+    font-size: 200%;
+  }
+
+  .section-2-list {
+    padding: 40px 0px 30px 0px;
+    font-size: 125%;
+  }
+
+  li {
+  }
+
+  blockquote {
+    padding: 40px;
+    font-size: 125%;
+  }
+
 
   footer {
     display: flex;
