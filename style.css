@@ -5,47 +5,62 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
   line-height: 160%;
-  background-color: #007a33;
+  background-image: url(images/floor.jpg);
+  height: 100vh;
+  width: 100vw;
 }
 
 header {
+  background-color: #007a33;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;  
   border-top: medium solid white;
   border-bottom: medium solid white;
-  font-size: 130%;
+  width: 100vw;
   padding: 20px;
+  margin-bottom: 20px;
+  
 }
 
 h1 {
-  font-size: 250%;
   padding-bottom: 20px;
-  line-height: 100%;
 }
 
 .logo-2 {
   display: none;
 }
 
-header p {
-  font-size: 120%;
-  
-}
-
-.section-1 {
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(images/floor.jpg);
-  color: black;
+  gap: 20px;
+}
+
+.section-1 {
+  background-color: #007a33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
   padding: 20px;
+  margin: 0px 20px 0px 20px;
+  border: medium solid white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 5px black;
 }
 
 .section-1 img {
@@ -57,9 +72,6 @@ header p {
 
 .section-1 p {
   text-align: center;
-  font-size: 120%;
-  padding-top: 20px;
-  font-weight: 500;
 }
 
 .section-2 {
@@ -67,21 +79,21 @@ header p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
   padding: 20px;
-  font-size: 100%;
-  border-top: medium solid white;
-  border-bottom: medium solid white;
+  margin: 0px 20px 0px 20px;
+  border: medium solid white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 5px black;
+  background-color: #007a33;
 }
 
 .section-2 h2 {
-  font-size: 150%;
-  line-height: 110%;
-  text-align: center;
+  text-align: center;  
 }
 
 .section-2-list {
-  padding: 20px;
-  width: auto;
+  padding-left: 20px;
 }
 
 .section-2-list li {
@@ -96,14 +108,15 @@ blockquote {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: auto;
-  border: thin solid white;
+  border: medium solid white;
   border-radius: 20px;
   padding: 20px;
-  background-image: url(images/floor.jpg);
-  color: black;
-  font-weight: 500;
+  margin: 0px 20px 0px 20px;
+  background-color: #007a33;
+  color: white;
+  font-style: italic;
   text-align: center;
+  box-shadow: 10px 10px 10px 5px black;
 }
 
 .larry {
@@ -111,14 +124,19 @@ blockquote {
 }
 
 footer {
+  background-color: #007a33;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 20px;
   text-align: center;
+  gap: 20px;
+  width: 100vw;
   padding: 20px;
+  margin-top: 20px;  
+  border-top: medium solid white;
   border-bottom: medium solid white;
+  font-size: 80%;
 }
 
 a:link {
@@ -139,68 +157,43 @@ a:hover {
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
+
+  body {
+    font-size: 120%;
+  }
+
   header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+    margin-bottom: 40px;
   }
 
-  .title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-
-  h1 {
-    font-size: 300%;
-  }
-
-  .title p {
-    font-size: 150%;
-  }
-  
   .logo-2 {
     display: block;
   }
 
-  .section-1 {
+  main {
+    gap: 40px;
+  }
+
+  blockquote, .section-1, .section-2 {
+    gap: 40px;
     padding: 40px;
-    font-size: 125%;
+    margin: 0px 40px 0px 40px;
+    box-shadow: 20px 20px 20px 10px black;
   }
-
-  .section-2 {
-    padding: 40px;
-  }
-
-  .section-2 h2 {
-    font-size: 200%;
-  }
-
-  .section-2-list {
-    padding: 40px 0px 30px 0px;
-    font-size: 125%;
-  }
-
-  li {
-  }
-
-  blockquote {
-    padding: 40px;
-    font-size: 125%;
-  }
-
 
   footer {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 40px 80px 40px 80px;
+    gap: 40px;
+    padding: 40px;
+    margin-top: 40px;
   }
 
-}
+}  
