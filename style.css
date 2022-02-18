@@ -44,7 +44,7 @@ header {
 h1 {
   font-family: "Bebas Neue", Georgia, 'Times New Roman', Times, serif;
   font-size: 300%;
-  text-shadow: 4px 4px 2px black;
+  text-shadow: 8px 8px 4px black;
 }
 
 .title p {
@@ -75,13 +75,13 @@ main {
   padding: 20px;
   margin: 0px 20px 0px 20px;
   border: medium solid white;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 10px 10px 10px 5px black;
 }
 
 .section-1 img {
   border: medium solid white;
-  border-radius: 20px;
+  border-radius: 10px;
   max-width: 100%;
   height: auto;
 }
@@ -99,7 +99,7 @@ main {
   padding: 20px;
   margin: 0px 20px 0px 20px;
   border: medium solid white;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 10px 10px 10px 5px black;
   background-color: #007a33;
 }
@@ -126,7 +126,7 @@ blockquote {
   flex-direction: column;
   gap: 20px;
   border: medium solid white;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 20px;
   margin: 0px 20px 0px 20px;
   background-color: #007a33;
@@ -154,6 +154,7 @@ footer {
   border-top: medium solid white;
   border-bottom: medium solid white;
   font-size: 80%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a:link {
