@@ -76,7 +76,7 @@ main {
   margin: 0px 20px 0px 20px;
   border: medium solid white;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px 5px black;
+  box-shadow: 10px 10px 10px black;
 }
 
 .section-1 img {
@@ -100,7 +100,7 @@ main {
   margin: 0px 20px 0px 20px;
   border: medium solid white;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px 5px black;
+  box-shadow: 10px 10px 10px black;
   background-color: #007a33;
 }
 
@@ -133,7 +133,7 @@ blockquote {
   color: white;
   font-style: italic;
   text-align: center;
-  box-shadow: 10px 10px 10px 5px black;
+  box-shadow: 10px 10px 10px black;
 }
 
 .larry {
@@ -206,7 +206,7 @@ a:hover {
     gap: 40px;
     padding: 40px;
     margin: 0px 40px 0px 40px;
-    box-shadow: 20px 20px 20px 10px black;
+    box-shadow: 20px 20px 20px black;
   }
 
   footer {
